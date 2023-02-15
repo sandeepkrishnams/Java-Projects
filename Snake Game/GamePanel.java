@@ -78,7 +78,7 @@ public class GamePanel extends JPanel implements ActionListener {
   }
 
   public void move() {
-    for(int i = bodyparts;i>0;i-- ) {
+    for(int i = bodyparts; i>0; i-- ) {
       x[i] = x[i - 1];
       y[i] = y[i - 1];
     }
